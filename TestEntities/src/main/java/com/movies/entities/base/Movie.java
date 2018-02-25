@@ -1,11 +1,12 @@
-package com.movies.entities;
+package com.movies.entities.base;
 
 import java.util.Arrays;
 import java.util.List;
 
 import com.google.gson.Gson;
+import com.movies.entities.TestEntity;
 
-public class Movie {
+public class Movie implements TestEntity {
 	private String title;
 	private String isAdult;
 	// Release date with format YYYY.
